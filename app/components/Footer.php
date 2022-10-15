@@ -1,4 +1,9 @@
-<footer class="bg-eee app-footer">
+<?php
+class Footer
+{
+  static function renderFooter()
+  {
+?><footer class="bg-eee app-footer">
   <div class="bg-blue">
     <div class="app-container">
       <div class="app-contact-footer">
@@ -105,3 +110,10 @@
 </body>
 
 </html>
+
+<?php
+
+  }
+}
+
+?>
